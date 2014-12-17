@@ -612,6 +612,13 @@
     <module>modules/activiti-engine</module>
   </modules>
 
+  <repositories>
+    <repository>
+      <id>vaadin-addons</id>
+      <url>http://maven.vaadin.com/vaadin-addons</url>
+    </repository>
+  </repositories>
+
   <build>
     <plugins>
       <plugin>
@@ -777,6 +784,7 @@
               </execution>
             </executions>
           </plugin>
+<!--
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
@@ -790,6 +798,7 @@
               </execution>
             </executions>
           </plugin>
+-->
         </plugins>
       </build>
     </profile>
